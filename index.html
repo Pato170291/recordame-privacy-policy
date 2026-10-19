@@ -1,57 +1,119 @@
-# Política de Privacidad de RecordaMe
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - RecordaMe</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+        h1 {
+            color: #4f46e5;
+            font-size: 28px;
+            margin-top: 0;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 12px;
+        }
+        h2 {
+            color: #334155;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #475569;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .date {
+            font-size: 13px;
+            color: #64748b;
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e2e8f0;
+            margin: 24px 0;
+        }
+        .footer {
+            margin-top: 32px;
+            font-size: 13px;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad de RecordaMe</h1>
+        <div class="date">Última actualización: Octubre de 2026</div>
 
-Última actualización: Octubre de 2026
+        <p>En <strong>RecordaMe</strong>, nos tomamos muy en serio la privacidad y la protección de los datos de nuestros usuarios. Esta Política de Privacidad explica qué información recopilamos, cómo la utilizamos y qué medidas tomamos para proteger tus datos de salud y uso personal.</p>
 
-En RecordaMe ("nosotros", "nuestra aplicación"), nos tomamos muy en serio la privacidad y la protección de los datos de nuestros usuarios. Esta Política de Privacidad explica qué información recopilamos, cómo la utilizamos y qué medidas tomamos para proteger tus datos de salud y uso personal.
+        <hr>
 
----
+        <h2>1. Información que recopilamos</h2>
+        <p>RecordaMe está diseñada bajo el principio de minimización de datos:</p>
+        <ul>
+            <li><strong>Datos de Almacenamiento Local:</strong> Los recordatorios de medicamentos, dosis, horarios y turnos médicos que ingresas en la aplicación se almacenan de manera local en tu dispositivo móvil.</li>
+            <li><strong>Datos de Sincronización (Tutor / Responsable):</strong> Para activar la función de supervisión entre el usuario y su tutor o responsable familiar, la aplicación sincroniza únicamente los datos necesarios (horarios de toma, estado de confirmación de medicamentos y avisos de turnos) utilizando la infraestructura en la nube de <strong>Google Firebase (Cloud Firestore)</strong>.</li>
+            <li><strong>Datos de Identificación y Vinculación:</strong> Generamos identificadores únicos o tokens de vinculación para conectar la cuenta del usuario con la de su tutor o responsable autorizado.</li>
+        </ul>
+        <p>No recopilamos ni vendemos información personal identificable con fines publicitarios o comerciales.</p>
 
-### 1. Información que recopilamos
+        <h2>2. Uso de la Información</h2>
+        <p>La información ingresada se utiliza exclusivamente para:</p>
+        <ul>
+            <li>Generar las notificaciones y alarmas locales en el dispositivo.</li>
+            <li>Permitir al tutor o responsable monitorear en tiempo real si el usuario ha confirmado sus tomas o turnos programados.</li>
+            <li>Garantizar el correcto funcionamiento técnico de la aplicación.</li>
+        </ul>
 
-RecordaMe está diseñada bajo el principio de minimización de datos:
+        <h2>3. Almacenamiento y Seguridad de los Datos</h2>
+        <ul>
+            <li><strong>Tránsito Seguro:</strong> La comunicación entre los dispositivos del usuario, del tutor y los servidores de Firebase Firestore se realiza de manera cifrada a través de protocolos seguros HTTPS/TLS.</li>
+            <li><strong>Seguridad en la Nube:</strong> Google Firebase cumple con rigurosos estándares internacionales de seguridad y encriptación de datos en reposo y en tránsito.</li>
+            <li><strong>Control del Usuario:</strong> La vinculación con un tutor o responsable puede ser cancelada en cualquier momento por el usuario desde la configuración de la aplicación.</li>
+        </ul>
 
-* **Datos de Almacenamiento Local:** Los recordatorios de medicamentos, dosis, horarios y turnos médicos que ingresas en la aplicación se almacenan de manera local en tu dispositivo móvil.
-* **Datos de Sincronización (Tutor / Responsable):** Para activar la función de supervisión entre el usuario y su tutor o responsable familiar, la aplicación sincroniza únicamente los datos necesarios (horarios de toma, estado de confirmación de medicamentos y avisos de turnos) utilizando la infraestructura en la nube de **Google Firebase (Cloud Firestore)**.
-* **Datos de Identificación y Vinculación:** Generamos identificadores únicos o tokens de vinculación para conectar la cuenta del usuario con la de su tutor o responsable autorizado.
+        <h2>4. Descargo de Responsabilidad Médica (Disclaimer)</h2>
+        <p>RecordaMe es una herramienta digital de apoyo y gestión personal de recordatorios. <strong>No es un dispositivo médico, no brinda diagnósticos ni reemplaza el consejo, tratamiento o supervisión de un profesional de la salud.</strong></p>
+        <p>La entrega de notificaciones puede verse afectada por la conectividad a internet, el estado de la batería o las configuraciones del sistema operativo. La responsabilidad del cumplimiento del tratamiento recae en el usuario y su tutor o adulto responsable.</p>
 
-No recopilamos ni vendemos información personal identificable con fines publicitarios o comerciales.
+        <h2>5. Eliminación de Datos</h2>
+        <p>El usuario o su tutor pueden solicitar la eliminación total de sus datos de sincronización en la nube o desvincular sus cuentas en cualquier momento directamente desde la app o enviando un correo electrónico a nuestro contacto de soporte. Al desinstalar la aplicación, los datos almacenados localmente se eliminan de forma definitiva.</p>
 
----
+        <h2>6. Contacto y Soporte</h2>
+        <p>Si tienes dudas, comentarios o solicitudes sobre esta Política de Privacidad, puedes contactarnos a través de:</p>
+        <ul>
+            <li><strong>Desarrollador / Marca:</strong> PAF Systems</li>
+            <li><strong>Correo de contacto:</strong> pafl7@hotmail.es</li>
+        </ul>
 
-### 2. Uso de la Información
-
-La información ingresada se utiliza **exclusivamente** para:
-* Generar las notificaciones y alarmas locales en el dispositivo.
-* Permitir al tutor o responsable monitorear en tiempo real si el usuario ha confirmado sus tomas o turnos programados.
-* Garantizar el correcto funcionamiento técnico de la aplicación.
-
----
-
-### 3. Almacenamiento y Seguridad de los Datos
-
-* **Tránsito Seguro:** La comunicación entre los dispositivos del usuario, del tutor y los servidores de Firebase Firestore se realiza de manera cifrada a través de protocolos seguros HTTPS/TLS.
-* **Seguridad en la Nube:** Google Firebase cumple con rigurosos estándares internacionales de seguridad y encriptación de datos en reposo y en tránsito.
-* **Control del Usuario:** La vinculación con un tutor o responsable puede ser cancelada en cualquier momento por el usuario desde la configuración de la aplicación.
-
----
-
-### 4. Descargo de Responsabilidad Médica (Disclaimer)
-
-RecordaMe es una herramienta digital de apoyo y gestión personal de recordatorios. **No es un dispositivo médico, no brinda diagnósticos ni reemplaza el consejo, tratamiento o supervisión de un profesional de la salud.** 
-
-La entrega de notificaciones puede verse afectada por la conectividad a internet, el estado de la batería o las configuraciones del sistema operativo. La responsabilidad del cumplimiento del tratamiento recae en el usuario y su tutor o adulto responsable.
-
----
-
-### 5. Eliminación de Datos
-
-El usuario o su tutor pueden solicitar la eliminación total de sus datos de sincronización en la nube o desvincular sus cuentas en cualquier momento directamente desde la app o enviando un correo electrónico a nuestro contacto de soporte. Al desinstalar la aplicación, los datos almacenados localmente se eliminan de forma definitiva.
-
----
-
-### 6. Contacto y Soporte
-
-Si tienes dudas, comentarios o solicitudes sobre esta Política de Privacidad, puedes contactarnos a través de:
-
-* **Desarrollador / Marca:** PAF Systems
-* **Correo de contacto:**paf17@hotmail.es
+        <div class="footer">
+            © 2026 RecordaMe - PAF Systems. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>
